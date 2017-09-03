@@ -1,0 +1,289 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kutetheme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Fri Oct 30 2015 09:09:21 GMT+0700 (SE Asia Standard Time)\n"
+"PO-Revision-Date: Mon Dec 28 2015 23:48:07 GMT+0700 (SE Asia Standard Time)\n"
+"Last-Translator: kyzo <kyzoable123@gmail.com>\n"
+"Language-Team: \n"
+"Language: Vietnamese\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: vi_VN\n"
+"X-Generator: Loco - https://localise.biz/"
+
+msgid "%d item in my cart"
+msgid_plural "%d items in my cart"
+msgstr[0] "%d sản phẩm trong giỏ hàng"
+msgstr[1] ""
+
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s đánh giá\n"
+msgstr[1] ""
+
+msgid "Abount Us"
+msgstr "Giới Thiệu"
+
+msgid "Account"
+msgstr "Tài Khoản"
+
+msgid "Additional Information"
+msgstr "Thông Tin Bổ Sung "
+
+msgid "Address:"
+msgstr "Địa chỉ:"
+
+msgid "All Categories"
+msgstr "Tất cả danh mục"
+
+msgid "Availability"
+msgstr "Có sẵn"
+
+msgid "Available Options"
+msgstr "Tùy chọn có sẵn"
+
+msgid "Browse:"
+msgstr "Duyệt:"
+
+msgid "Cart"
+msgstr "Giỏ"
+
+msgid "Categories"
+msgstr "Danh mục sản phẩm"
+
+msgid "Checkout"
+msgstr "Thanh Toán"
+
+msgid "Comments are closed."
+msgstr "Bình luận đã được đóng."
+
+msgid "Compare"
+msgstr "So Sánh"
+
+msgid "Contact us today !"
+msgstr "Liên hệ ngay với chúng tôi !"
+
+msgid "Continue Shopping &rarr;"
+msgstr "Tiếp tục shopping &rarr;"
+
+msgid "Get started here"
+msgstr "Hãy bắt đầu tại đây"
+
+msgid "Hide Details"
+msgstr "Ẩn Chi tiết"
+
+msgid "Hrs"
+msgstr "Giờ"
+
+msgid "In stock"
+msgstr "Còn hàng"
+
+msgid "Infomation"
+msgstr "Thông Tin"
+
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Trang bạn tìm kiếm không tồn tại hoặc đã bị gỡ xuống. Hãy thử tìm kiếm?"
+
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Có vẻ như chúng tôi không thể tìm thấy những gì bạn đang tìm kiếm. "
+
+msgid "Item Code"
+msgstr "Mã hàng"
+
+msgid "Keyword here..."
+msgstr "Nhập từ khóa vào đây..."
+
+msgid "Keywords"
+msgstr "Xu hướng tìm kiếm"
+
+msgid ""
+"Kutetheme Fashion is a simple but modern responsive Wordpress theme that "
+"oozes high-street sophistication. Its sharp lines and flat design style has "
+"been designed to be pixel perfect. Simply load your photography and you can "
+"have an online shop to matches the likes of Prada, Gucci and Yves St Laurent."
+msgstr "http://kyzomedia.biz/test/wp-admin/admin.php?page=kt_options"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Login / Register"
+msgstr "Đăng nhập / Đăng ký"
+
+msgid "Logout"
+msgstr "Đăng Xuất"
+
+msgid "Mins"
+msgstr "Phút"
+
+msgid "Minute %s"
+msgstr "Phút %s"
+
+msgid "Months"
+msgstr "Tháng"
+
+msgid "My Account"
+msgstr "Tài Khoản Của Tôi"
+
+msgid "My cart"
+msgstr "Giỏ hàng của tôi"
+
+msgid "Newer Comments"
+msgstr "Mới comment"
+
+msgid "Next"
+msgstr "Tiếp"
+
+msgctxt "Ngày"
+msgid "Days"
+msgstr "Ngày"
+
+msgid "Nothing Found"
+msgstr "Không kết quả"
+
+msgid "Older Comments"
+msgstr "Comment cũ"
+
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Trang không được tìm thấy."
+
+msgid "Out of stock"
+msgstr "Hết hàng"
+
+msgid "Previous"
+msgstr "Trước"
+
+msgid "Price"
+msgstr "Giá"
+
+msgid "Product Description"
+msgstr "Mô Tả Sản Phẩm"
+
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "S.lượng"
+
+msgid "Product successfully added to your cart."
+msgstr "Thêm sản phẩm vào giỏ hàng thành công."
+
+msgid "Qty"
+msgstr "S.lượng"
+
+msgid "Qty: "
+msgstr "S.lượng"
+
+msgid "Read more"
+msgstr "Đọc thêm"
+
+msgid "Ready to publish your first post?"
+msgstr "Sẵn sàng để đăng bài viết đầu tiên của bạn?"
+
+msgid "Register"
+msgstr "Đăng Ký"
+
+msgid "Related Products"
+msgstr "Sản Phẩm Tương Tự"
+
+msgid "Remove this item"
+msgstr "Xóa sản phẩm này"
+
+msgid "Reply"
+msgstr "Trả lời"
+
+msgid "Search Results for: %s"
+msgstr "Kết quả tìm kiếm cho: %s"
+
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Kết quả tìm kiếm cho &#8220;%s&#8221;"
+
+msgid "Secs"
+msgstr "Giây"
+
+msgid "Send to a friend"
+msgstr "Gửi cho bạn bè"
+
+msgid "Services"
+msgstr "Dịch Vụ"
+
+msgid "Shopping cart"
+msgstr "Giỏ Hàng"
+
+msgid "Show Details"
+msgstr "Hiển thị chi tiết"
+
+msgid "Showing"
+msgstr "Hiển thị"
+
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Không có kết quả phù hợp với điều kiện tìm kiếm của bạn. Vui lòng thử lại "
+"với một số từ khóa khác nhau."
+
+msgid ""
+"Success! Check your inbox or spam folder for a message containing a "
+"confirmation link."
+msgstr ""
+"Success! Kiểm tra hộp thư đến của bạn hoặc thư mục thư rác cho một tin nhắn "
+"có chứa đường link xác nhận."
+
+msgid "Support"
+msgstr "Hỗ Trợ"
+
+msgid "Total"
+msgstr "Tổng"
+
+msgid "View Cart &rarr;"
+msgstr "Xem Giỏ Hàng &rarr;"
+
+msgid "View all posts by %s"
+msgstr "Xem tất cả các bài viết của %s"
+
+msgid "Week %s"
+msgstr "Tuần %s"
+
+msgid "Weeks"
+msgstr "Tuần"
+
+msgid "Wishlists"
+msgstr "Like"
+
+msgid "Years"
+msgstr "Năm"
+
+msgid "Your comment is awaiting approval"
+msgstr "Comment của bạn đang được phê duyệt"
+
+msgid "Your comment is awaiting moderation."
+msgstr "Comment của bạn đang được kiểm duyệt."
+
+msgid "by:"
+msgstr "bởi:"
+
+msgid "grid"
+msgstr "Bảng"
+
+msgid "list"
+msgstr "Danh sách"
+
+msgid "of"
+msgstr "của"
+
+msgid "payment"
+msgstr "thanh toán"
+
+msgid "posts"
+msgstr "bài biết"
