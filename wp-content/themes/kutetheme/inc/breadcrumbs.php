@@ -53,7 +53,7 @@ function breadcrumb_trail( $args = array() ) {
         /* Labels for text used (see Breadcrumb_Trail::default_labels). */
         'labels' => array(
             'browse'              => '',
-            'home'                => esc_attr__( 'Home',                                'kutetheme' ),
+            'home'                => esc_attr__( 'Trang chủ',                                'kutetheme' ),
             'error_404'           => esc_attr__( '404 Not Found',                       'kutetheme'  ),
             'archives'            => esc_attr__( 'Archives',                            'kutetheme' ),
             /* Translators: %s is the search query. The HTML entities are opening and closing curly quotes. */
