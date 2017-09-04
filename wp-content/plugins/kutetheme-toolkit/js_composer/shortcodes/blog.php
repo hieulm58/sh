@@ -377,9 +377,9 @@ class WPBakeryShortCode_Blog_Carousel extends WPBakeryShortCode {
                                     <span class="date"><?php echo get_the_date('F j, Y');?></span>
                                     <span class="comment">
                                         <?php comments_number(
-                                            __('0 Comment', 'kutetheme'),
-                                            __('1 Comment', 'kutetheme'),
-                                            __('% Comments', 'kutetheme')
+                                            __('0 Bình luận', 'kutetheme'),
+                                            __('1 Bình luận', 'kutetheme'),
+                                            __('% Bình luận', 'kutetheme')
                                         ); ?>
                                     </span>
                                 </div>
@@ -419,9 +419,9 @@ class WPBakeryShortCode_Blog_Carousel extends WPBakeryShortCode {
                                         <span class="date"><?php echo get_the_date('F j, Y');?></span>
                                         <span class="comment">
                                         <?php comments_number(
-                                            __('0 Comment', 'kutetheme'),
-                                            __('1 Comment', 'kutetheme'),
-                                            __('% Comments', 'kutetheme')
+                                            __('0 Bình luận', 'kutetheme'),
+                                            __('1 Bình luận', 'kutetheme'),
+                                            __('% Bình luận', 'kutetheme')
                                         ); ?>
                                         </span>
                                     </div>
