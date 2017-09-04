@@ -481,7 +481,7 @@ class WPBakeryShortCode_Box_Products extends WPBakeryShortCode {
                             <ul class="box-tabs nav-tab">
                                 <li class="active">
                                     <a data-toggle="tab" href="#tab-all-<?php echo $unique_id ?>">
-                                        <?php _e( 'All', 'edo' ) ?>
+                                        <?php _e( 'Tất cả', 'edo' ) ?>
                                     </a>
                                 </li>
                                 <?php if( count( $cate_ids ) ): ?>
