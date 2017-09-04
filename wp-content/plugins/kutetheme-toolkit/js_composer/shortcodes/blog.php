@@ -384,7 +384,7 @@ class WPBakeryShortCode_Blog_Carousel extends WPBakeryShortCode {
                                     </span>
                                 </div>
                                 <div class="readmore">
-                                    <a href="<?php the_permalink() ?>"><?php _e( 'Readmore', 'kutetheme' ) ?></a>
+                                    <a href="<?php the_permalink() ?>"><?php _e( 'Xem thêm', 'kutetheme' ) ?></a>
                                 </div>
                             </div>
                         </li>
@@ -426,7 +426,7 @@ class WPBakeryShortCode_Blog_Carousel extends WPBakeryShortCode {
                                         </span>
                                     </div>
                                     <div class="readmore">
-                                        <a href="<?php the_permalink();?>"><?php _e('Readmore','kutetheme');?></a>
+                                        <a href="<?php the_permalink();?>"><?php _e('Xem thêm','kutetheme');?></a>
                                     </div>
                                 </div>
                             </li>
