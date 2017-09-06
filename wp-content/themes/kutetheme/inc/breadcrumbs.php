@@ -54,16 +54,16 @@ function breadcrumb_trail( $args = array() ) {
         'labels' => array(
             'browse'              => '',
             'home'                => esc_attr__( 'Trang chủ',                                'kutetheme' ),
-            'error_404'           => esc_attr__( '404 Not Found',                       'kutetheme'  ),
+            'error_404'           => esc_attr__( 'Không tìm thấy',                       'kutetheme'  ),
             'archives'            => esc_attr__( 'Archives',                            'kutetheme' ),
             /* Translators: %s is the search query. The HTML entities are opening and closing curly quotes. */
-            'search'              => esc_attr__( 'Search results for &#8220;%s&#8221;', 'kutetheme' ),
+            'search'              => esc_attr__( 'Kết quả tìm kiếm cho &#8220;%s&#8221;', 'kutetheme' ),
             /* Translators: %s is the page number. */
-            'paged'               => esc_attr__( 'Page %s',                             'kutetheme' ),
+            'paged'               => esc_attr__( 'Trang %s',                             'kutetheme' ),
             /* Translators: Minute archive title. %s is the minute time format. */
-            'archive_minute'      => esc_attr__( 'Minute %s',                           'kutetheme' ),
+            'archive_minute'      => esc_attr__( 'Phút %s',                           'kutetheme' ),
             /* Translators: Weekly archive title. %s is the week date format. */
-            'archive_week'        => esc_attr__( 'Week %s',                            'kutetheme' ),
+            'archive_week'        => esc_attr__( 'Tuần %s',                            'kutetheme' ),
 
             /* "%s" is replaced with the translated date/time format. */
             'archive_minute_hour' => '%s',

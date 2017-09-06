@@ -23,9 +23,9 @@ if ( ! defined( 'ABSPATH' ) ) {
     ?>
     <span class="cat"><i class="fa fa-folder-o"></i> <?php the_category(', '); ?></span>
     <span class="comment-count"><i class="fa fa-comment-o"></i> <?php comments_number(
-        esc_attr__('0 comment', 'kutetheme'),
-        esc_attr__('1 comment', 'kutetheme'),
-        esc_attr__('% comments', 'kutetheme')
+        esc_attr__('0 bình luận', 'kutetheme'),
+        esc_attr__('1 bình luận', 'kutetheme'),
+        esc_attr__('% bình luận', 'kutetheme')
     ); ?></span>
     <span class="date"><i class="fa fa-calendar"></i> <?php echo get_the_date('F j, Y');?></span>
 </div>
