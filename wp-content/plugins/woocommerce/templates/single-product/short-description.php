@@ -28,5 +28,9 @@ if ( ! $post->post_excerpt ) {
 
 ?>
 <div class="woocommerce-product-details__short-description">
-    <?php echo apply_filters( 'woocommerce_short_description', $post->post_excerpt ); ?>
+    <?php 
+    echo apply_filters( 'woocommerce_short_description', $post->post_excerpt );
+    $author = array_shift( wc_get_product_terms( $post->id, 'pa_link-download', array( 'fields' => 'names' ) ) );
+    echo "<a href='http://".$author."' class='btndl btndl-green' style='margin-bottom:10px'>Download</a>";
+    ?>
 </div>

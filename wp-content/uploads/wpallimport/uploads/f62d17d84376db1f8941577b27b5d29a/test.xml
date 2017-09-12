@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<name><![CDATA[TESdfgfdg]]></name>
+		<description><![CDATA[THIS IS A TEST BOOK]]></description>
+		<author><![CDATA[Le Hieu]]></author>
+		<cate><![CDATA[IT & Programming]]></cate>
+		<download><![CDATA[hieube.com]]></download>
+	</node>
+	<node>
+		<name><![CDATA[TEStt TT]]></name>
+		<description><![CDATA[THIS IS A TEST BOOK]]></description>
+		<author><![CDATA[Hieu Le]]></author>
+		<cate><![CDATA[IT & Programming]]></cate>
+		<download><![CDATA[hieube.com]]></download>
+	</node>
+</data>
