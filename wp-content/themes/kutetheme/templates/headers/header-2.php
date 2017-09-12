@@ -29,11 +29,11 @@ if ( ! defined( 'ABSPATH' ) ) {
             <div class="header-search-box <?php echo kt_is_wc() ? 'col-xs-7 col-sm-7' : 'col-xs-9'; ?>">
                 <?php kt_search_form();  ?>
             </div>
-            <?php 
+            <!-- <?php 
                 if( kt_is_wc() ): 
                     do_action('kt_mini_cart');
                  endif; 
-             ?>
+             ?> -->
         </div>
         
     </div>
