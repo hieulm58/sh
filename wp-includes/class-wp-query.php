@@ -3120,6 +3120,24 @@ class WP_Query {
 		$this->setup_postdata( $post );
 	}
 
+	public function the_post2() {
+		global $post;
+		$this->in_the_loop = true;
+
+		if ( $this->current_post == 4 ) // loop has just started
+			/**
+			 * Fires once the loop is started.
+			 *
+			 * @since 2.0.0
+			 *
+			 * @param WP_Query &$this The WP_Query instance (passed by reference).
+			 */
+			do_action_ref_array( 'loop_start', array( &$this ) );
+
+		$post = $this->next_post();
+		$this->setup_postdata( $post );
+	}
+
 	/**
 	 * Determines whether there are more posts available in the loop.
 	 *

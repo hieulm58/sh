@@ -489,7 +489,7 @@ class WPBakeryShortCode_Blog_Carousel extends WPBakeryShortCode {
                         <div class="info">
                             <h2 class="title"><a href="<?php the_permalink();?>"><?php the_title( );?></a></h2>
                             <div class="desc"><?php the_excerpt(); ?></div>
-                            <a class="readmore" href="<?php the_permalink();?>"><?php _e('Readmore','kutetheme');?></a>
+                            <a class="readmore" href="<?php the_permalink();?>"><?php _e('Đọc thêm','kutetheme');?></a>
                         </div>
                     </div>
                     <?php else: ?>
@@ -497,7 +497,7 @@ class WPBakeryShortCode_Blog_Carousel extends WPBakeryShortCode {
                         <div class="info">
                             <h2 class="title"><a href="<?php the_permalink();?>"><?php the_title( );?></a></h2>
                             <div class="desc"><?php the_excerpt(); ?></div>
-                            <a class="readmore" href="<?php the_permalink();?>"><?php _e('Readmore','kutetheme');?></a>
+                            <a class="readmore" href="<?php the_permalink();?>"><?php _e('Đọc thêm','kutetheme');?></a>
                         </div>
                         <?php if( has_post_thumbnail()):?>
                         <div class="thumb banner-boder-zoom2">
@@ -513,6 +513,50 @@ class WPBakeryShortCode_Blog_Carousel extends WPBakeryShortCode {
                 </div>
                 <?php endif;?>
             </div>
+
+            <div class="<?php echo esc_attr( $elementClass );?>">
+                <?php if($posts->have_posts()):?>
+                <div class="lasttest-blog11 owl-carousel" <?php echo _data_carousel($data_carousel); ?>>
+                    <?php $i = 1; while( $posts->have_posts()): $posts->the_post2(); ?>
+                    <?php if( $i%2 ):?>
+                    <div class="item-blog">
+                        <?php if( has_post_thumbnail()):?>
+                        <div class="thumb banner-boder-zoom2">
+                            <a href="<?php the_permalink();?>">
+                            <?php the_post_thumbnail( 'lookbook-thumb');?>
+                            </a>
+                            <span class="cat"><?php echo get_the_date('F j, Y');?></span>
+                        </div>
+                        <?php endif;?>
+                        <div class="info">
+                            <h2 class="title"><a href="<?php the_permalink();?>"><?php the_title( );?></a></h2>
+                            <div class="desc"><?php the_excerpt(); ?></div>
+                            <a class="readmore" href="<?php the_permalink();?>"><?php _e('Đọc thêm','kutetheme');?></a>
+                        </div>
+                    </div>
+                    <?php else: ?>
+                    <div class="item-blog">
+                        <div class="info">
+                            <h2 class="title"><a href="<?php the_permalink();?>"><?php the_title( );?></a></h2>
+                            <div class="desc"><?php the_excerpt(); ?></div>
+                            <a class="readmore" href="<?php the_permalink();?>"><?php _e('Đọc thêm','kutetheme');?></a>
+                        </div>
+                        <?php if( has_post_thumbnail()):?>
+                        <div class="thumb banner-boder-zoom2">
+                            <a href="<?php the_permalink();?>">
+                            <?php the_post_thumbnail( 'lookbook-thumb');?>
+                            </a>
+                            <span class="cat"><?php echo get_the_date('F j, Y');?></span>
+                        </div>
+                        <?php endif;?>
+                    </div>
+                    <?php endif;?>
+                    <?php $i++; endwhile;?>
+                </div>
+                <?php endif;?>
+            </div>
+            
+
             <?php endif;?>
         <?php
         endif;
